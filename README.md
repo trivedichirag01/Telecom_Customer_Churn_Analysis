@@ -87,7 +87,7 @@ Horizontal bar charts
 Matrix tables
 
 
-
+---
 
 🧰 Slicer & Interaction Architecture
 
