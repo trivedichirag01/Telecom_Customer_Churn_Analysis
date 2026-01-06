@@ -37,7 +37,7 @@ The goal is to provide an **interactive decision-support dashboard** for busines
 | Category | Columns |
 |--------|---------|
 Customer Info | `Customer_ID`, `Gender`, `Age`, `Married`, `State`, `Tenure_in_Months`
-Account | `Contract`, `Payment_Method`, `Paperless_Billing`, `Monthly_Charge`, `Total_Revenue`
+Account | `Contract`, `Payment_Method`, `Monthly_Charge`
 Services | `Internet_Type`, `Streaming_TV`, `Streaming_Movies`, `Streaming_Music`, `Phone_Service`, `Unlimited_Data`, etc.
 Churn | `Customer_Status`, `Churn_Category`, `Churn_Reason`
 
@@ -56,28 +56,43 @@ Performed using **Power Query**:
 📐 Dashboard Layout & Visuals
 
 Total Customers
+
 Churned Customers
+
 New Joiners
+
 Churn Rate
 
+
 Analysis Panels
+
 Demographic: Gender churn, age group analysis
+
 Account Info: Contract, Payment method, Tenure
+
 Geographic: State-wise churn
+
 Churn Distribution: Churn categories & reasons
+
 Services Used: Service adoption vs churn
 
 Visual Types Used
+
 Donut charts
+
 Stacked bar & line combo charts
+
 Horizontal bar charts
+
 Matrix tables
 
 
 🧰 Slicer & Interaction Architecture
 
 Slicers:
+
 Gender
+
 Monthly Charge Range
 
 ---
